@@ -24,7 +24,8 @@ body {
 }
 .image .picture {
   position: relative;
-  top: 1em;
+  top: 0em;
+  left: 6em;
 }
 .image h1 {
   position: relative;
@@ -32,17 +33,23 @@ body {
   bottom: 56px;
   left: 278px;
 }
+.infoblock {
+  background-color: lightgrey;
+  block-size: inline;
+}
 .infoblock .about {
-  width: 250px;
-  background-color: white;
+  width: 498px;
   float: left;
-  margin-left: 19em;
+  margin-left: 0em;
+  background-color: lightgrey;
+  text-align: right;
 }
 .infoblock .information {
-  width: 260px;
-  background-color: lightgrey;
+  width: 305px;
   float: right;
-  margin-right: 11em;
+  margin-right: 3em;
+  border: 3px solid black;
+  padding: 16px 115px 20px 28px;
 }
 .football-container {
   width: 33%;
@@ -62,7 +69,7 @@ body {
   padding-bottom: 70px;
 }
 .contact form {
-  margin-left: 400px;
+  margin-left: 275px;
 }
 .contact form .contain {
   float: left;
