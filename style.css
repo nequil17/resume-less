@@ -11,16 +11,16 @@ body {
   border-bottom-color: orange;
   border-width: 0px 0px 4px 0px;
 }
-.navigation .name {
+.navigation a {
+  color: black;
+  text-decoration: none;
+}
+.name {
   width: 75px;
   border: 2px solid black;
   padding: 15px;
   margin: 25px;
   color: orange;
-}
-.navigation a {
-  color: black;
-  text-decoration: none;
 }
 .image .picture {
   position: relative;
@@ -32,20 +32,17 @@ body {
   bottom: 56px;
   left: 278px;
 }
-.about {
+.infoblock .about {
   width: 250px;
-  border: 5px solid black;
-  padding: 100px;
-  float: center;
+  background-color: white;
+  float: left;
+  margin-left: 19em;
 }
-.information {
-  width: 249px;
-  border: 5px solid black;
-  padding: 75px 75px 3px 75px;
+.infoblock .information {
+  width: 260px;
+  background-color: lightgrey;
   float: right;
-  bottom: 332px;
-  right: 135px;
-  position: relative;
+  margin-right: 11em;
 }
 .football-container {
   width: 33%;
@@ -93,6 +90,9 @@ button {
   color: white;
   padding: 10px 10px 10px 10px;
 }
+.ending {
+  text-align: center;
+}
 .ending .span {
   float: center;
 }
@@ -101,4 +101,7 @@ button {
 }
 .ending .img2 {
   width: 5%;
+}
+.greet {
+  text-align: center;
 }
