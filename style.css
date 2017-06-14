@@ -34,22 +34,27 @@ body {
   left: 278px;
 }
 .infoblock {
+  height: 300px;
+  width: 100%;
+  margin: auto;
   background-color: lightgrey;
   block-size: inline;
 }
 .infoblock .about {
-  width: 498px;
+  width: 500px;
   float: left;
+  margin-top: 30px;
   margin-left: 0em;
-  background-color: lightgrey;
   text-align: right;
 }
 .infoblock .information {
-  width: 305px;
+  width: 400px;
   float: right;
-  margin-right: 3em;
+  margin-top: 2em;
+  margin-right: 2em;
   border: 3px solid black;
-  padding: 16px 115px 20px 28px;
+  padding: 30px 30px 30px 30px;
+  background-color: white;
 }
 .football-container {
   width: 33%;
@@ -69,7 +74,7 @@ body {
   padding-bottom: 70px;
 }
 .contact form {
-  margin-left: 275px;
+  margin-left: 255px;
 }
 .contact form .contain {
   float: left;
@@ -96,6 +101,7 @@ button {
   border: none;
   color: white;
   padding: 10px 10px 10px 10px;
+  margin-left: 459px;
 }
 .ending {
   text-align: center;
@@ -104,10 +110,12 @@ button {
   float: center;
 }
 .ending .img1 {
-  width: 5%;
+  width: 3%;
+  margin-right: 1em;
 }
 .ending .img2 {
-  width: 5%;
+  width: 3%;
+  margin-left: 1em;
 }
 .greet {
   text-align: center;
