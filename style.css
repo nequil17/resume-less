@@ -9,7 +9,7 @@ body {
   padding: 8px;
   border-style: solid;
   border-bottom-color: orange;
-  border-width: 0px 0px 3px 0px;
+  border-width: 0px 0px 4px 0px;
 }
 .navigation a {
   color: black;
@@ -21,6 +21,11 @@ body {
   padding: 15px;
   margin: 25px;
   color: orange;
+}
+@media (max-width: 527px) {
+  .name {
+    margin: 15px;
+  }
 }
 .image .picture {
   position: relative;
@@ -69,6 +74,11 @@ body {
 }
 .gallery .football {
   clear: both;
+}
+@media (max-width: 527px) {
+  .gallery .football {
+    width: 792px;
+  }
 }
 .gallery .football img {
   width: 33%;
