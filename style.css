@@ -22,11 +22,6 @@ body {
   margin: 25px;
   color: orange;
 }
-@media (min-width: 800px) {
-  .name {
-    text-align: center;
-  }
-}
 .image .picture {
   position: relative;
   top: 0em;
@@ -37,6 +32,12 @@ body {
   color: orange;
   bottom: 56px;
   left: 278px;
+}
+@media (max-width: 527px) {
+  .image h1 {
+    text-align: left;
+    left: 12px;
+  }
 }
 .infoblock {
   height: 300px;
@@ -52,6 +53,11 @@ body {
   margin-left: 0em;
   text-align: right;
 }
+@media (max-width: 527px) {
+  .infoblock .about {
+    text-align: center;
+  }
+}
 .infoblock .information {
   width: 400px;
   float: right;
@@ -61,11 +67,12 @@ body {
   padding: 30px 30px 30px 30px;
   background-color: white;
 }
-.football-container {
-  width: 33%;
-}
-.football-container .gallery {
+.gallery .football {
   clear: both;
+}
+.gallery .football img {
+  width: 33%;
+  height: 250px;
 }
 .bio {
   clear: both;
@@ -75,11 +82,21 @@ body {
   width: 50%;
   margin-bottom: 5em;
 }
+@media (max-width: 527px) {
+  .bio .contain {
+    text-align: center;
+  }
+}
 .contact {
   padding-bottom: 70px;
 }
 .contact form {
   margin-left: 255px;
+}
+@media (max-width: 527px) {
+  .contact form {
+    margin-left: 10px;
+  }
 }
 .contact form .contain {
   float: left;
